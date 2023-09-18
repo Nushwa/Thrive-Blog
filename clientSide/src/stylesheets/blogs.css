@@ -1,0 +1,130 @@
+body {
+  /* background-color: rgb(153, 131, 102); */
+  background-image: linear-gradient(
+    rgba(131, 132, 130, 0.635),
+    rgb(76, 82, 67)
+  );
+  background-attachment: fixed;
+  height: 100%;
+  font-family: "Mulish", sans-serif;
+}
+.bl-form {
+  border: 1px solid black;
+}
+.bl-inp {
+  border-radius: 10px;
+  width: 100%;
+  height: 30rem;
+  -webkit-appearance: none;
+  outline: none;
+}
+/* .banner {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  background: rgba(145, 144, 142, 0.667);
+  background-size: cover;
+  background-position: center;
+  /* border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+ } */
+
+.banner-upload-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  right: 20px;
+  width: 100px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+*/ .blog-img {
+  width: 80px;
+}
+
+.blog {
+  width: 70vw;
+  min-width: 400px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.title,
+.article {
+  margin: 20px;
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  outline: none;
+  font-size: 50px;
+  font-weight: 600;
+  color: #2d2d2d;
+  resize: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #27272730;
+}
+
+.title::placeholder,
+.article::placeholder {
+  color: #2d2d2d;
+}
+
+.article {
+  height: 500px;
+  font-size: 20px;
+  /* margin-top: 20px; */
+  /* line-height: 30px; */
+  font-weight: 500;
+  /* padding-bottom: 100px; */
+  /* white-space: pre-wrap; */
+}
+
+.blog-options {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(105, 105, 105, 0);
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pub-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 90px;
+  height: 35px;
+  margin: 15px;
+  width: 50%;
+  height: 45px;
+  text-align: center;
+  align-self: center;
+  align-content: center;
+}
+
+.btn.grey {
+  background: #a5a5a5;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.list-items {
+  background-color: none;
+}

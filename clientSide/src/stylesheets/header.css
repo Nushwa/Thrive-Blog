@@ -1,0 +1,42 @@
+body {
+  /* background-color: rgb(153, 131, 102); */
+  background-image: linear-gradient(
+    rgba(131, 132, 130, 0.635),
+    rgb(76, 82, 67)
+  );
+  background-attachment: fixed;
+  height: 100%;
+  font-family: "Mulish", sans-serif;
+}
+
+.container-fluid {
+  padding: 10px;
+}
+
+.body {
+  padding: 10px 20px;
+}
+.heading1 {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  color: rgb(5, 5, 3);
+  font-size: 65px;
+}
+.span-heading {
+  font-family: "Varela Round", sans-serif;
+  font-size: 35px;
+}
+.heading2 {
+  font-family: "Mulish", sans-serif;
+}
+
+.sub-btn1 {
+  border-radius: 20px;
+  background: #505050a1;
+  border: none;
+  font-family: "Varela Round", sans-serif;
+}
+
+.sub-btn:hover {
+  background-color: #7c7c7c;
+}

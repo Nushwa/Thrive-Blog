@@ -1,0 +1,11 @@
+.Spfp {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .pfpImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+  }

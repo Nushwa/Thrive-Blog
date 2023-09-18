@@ -1,0 +1,32 @@
+body {
+  color: rgb(0, 0, 0);
+}
+
+.fe-mainDiv {
+  text-align: center;
+}
+
+.fe-h1 {
+  font-family: "Mulish-bold", sans-serif;
+  font-weight: bolder;
+}
+.fe-h3 {
+  /* border: 2px solid pink; */
+}
+
+div table {
+  margin: 0 auto;
+  margin-top: 30px;
+  /* border: 2px solid green; */
+}
+
+div h2 {
+  font-weight: bold;
+  text-align: left;
+}
+div h1 {
+}
+
+.feDiv2 li {
+  font-size: 21px;
+}

@@ -1,0 +1,276 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    rgba(150, 142, 126, 0.39),
+    rgb(107, 104, 100)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.sidebar-containter {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.navigation {
+  position: relative;
+  width: 300px;
+  /* height: 1200px; */
+  background-color: rgba(46, 46, 46, 0.548);
+  border-left: 40px solid rgb(41, 41, 41);
+  transition: 0.5s;
+  overflow: hidden;
+  /* border: 4px solid rgb(0, 225, 255); */
+  min-height: 100vh;
+  height: 830px;
+}
+
+.navigation ul {
+  width: 55%;
+  /* border: 3px solid rgb(188, 247, 51); */
+}
+
+.navigation ul li {
+  position: relative;
+  width: 205%;
+  list-style: none;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.navigation li:hover,
+.navigation ul li.hovered {
+  background-color: rgba(17, 17, 17, 0.295);
+}
+.first-point {
+  margin-bottom: 45px;
+  pointer-events: none;
+  font-weight: bold;
+}
+.navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  /* border: 2px solid rgb(9, 179, 164); */
+}
+
+.navigation ul li:hover a {
+  color: rgb(16, 17, 17);
+}
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  padding: 0 10px;
+  /* border: 2px solid rgb(255, 219, 14); */
+}
+
+.navigation ul li a .icon icon-icon {
+  font-size: 1.75rem;
+}
+.title {
+  height: 60px;
+  line-height: 60px;
+}
+/* MAIN */
+.main {
+  position: absolute;
+  left: 300px;
+  top: 20px;
+  min-height: 100vh;
+  width: 75%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  /* border: 2px solid red; */
+  background-image: linear-gradient(
+    rgba(150, 142, 126, 0.39),
+    rgb(107, 104, 100)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+.topbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 0 10px;
+  /* border: 2px solid blue; */
+}
+
+.search {
+  position: relative;
+  width: 400px;
+  margin: 0 10px;
+  text-align: center;
+  /* border: 2px solid green; */
+}
+.search label {
+  position: relative;
+  width: 100%;
+}
+.search label input {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  padding: 5px 20px;
+  padding-left: 35px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.search label ion-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2rem;
+}
+/* CARDS */
+.cardBox {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  /* border: 2px solid gold; */
+}
+
+.cardBox .card {
+  position: relative;
+  background-color: white;
+  display: flex;
+  margin: 10px;
+  margin-left: 20px;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  /* border: 2px solid rgb(255, 0, 200); */
+}
+.cardBox .card:hover {
+  background-color: rgba(160, 160, 160, 0.075);
+}
+
+.numbers,
+.cardName {
+  padding: 10px;
+}
+.numbers {
+  position: relative;
+  font-weight: 500;
+  font-size: 2rem;
+  color: rgb(78, 78, 78);
+}
+.cardName {
+  color: rgb(77, 77, 77);
+  font-size: 1.1rem;
+}
+.iconBox {
+  display: flex;
+  position: absolute;
+  padding: 10px;
+  top: 20px;
+  /* right: 10px; */
+  left: 5px;
+}
+/* LIST */
+.detail {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  margin-top: 10px;
+  /* border: 3px solid orange; */
+}
+
+.detail .recent-sub {
+  position: relative;
+  /* display: flex; */
+  min-height: 500px;
+  min-width: 550px;
+  padding: 10px;
+  background-color: rgba(211, 211, 211, 0.226);
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  margin-left: 8px;
+  /* border: 3px solid purple; */
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-head h2 {
+  font-weight: 600;
+}
+.btn {
+  position: relative;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.detail table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: left;
+}
+.detail table thead td {
+  font-weight: bold;
+  font-size: 20px;
+
+  /* border: 3px solid rgb(73, 128, 0); */
+}
+.detail .recent-sub table tr {
+  color: black;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+  /* border: 2px solid pink; */
+  margin-top: 20px;
+}
+/* New subscribers */
+.new-sub {
+  position: relative;
+  /* display: flex; */
+  min-height: 500px;
+  min-width: 370px;
+  padding: 10px;
+  background-color: rgba(211, 211, 211, 0.226);
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  margin-left: 8px;
+}
+
+.new-sub .imgBox {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.new-sub .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

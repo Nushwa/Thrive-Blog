@@ -1,0 +1,95 @@
+body {
+  /* background-color: rgb(153, 131, 102); */
+  background-image: linear-gradient(
+    rgba(131, 132, 130, 0.635),
+    rgb(76, 82, 67)
+  );
+  background-attachment: fixed;
+  height: 100%;
+  font-family: "Mulish", sans-serif;
+}
+
+.PostWrapper {
+  padding: 20px;
+  padding-right: 0;
+}
+.PostImg {
+  width: 98%;
+
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.Title {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", sans-serif;
+}
+
+.titleInput {
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", sans-serif;
+  font-size: 30px;
+  height: 30%;
+}
+
+.Edit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.Info {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.Description {
+  color: black;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: "Varela";
+}
+.Description::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.DescInput {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: "Varela";
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.DescInput:focus {
+  outline: none;
+  border: none;
+}
+
+.singlePostBtn {
+  float: right;
+  margin: 30px;
+}

@@ -1,0 +1,83 @@
+.settings {
+  /* display: flex; */
+}
+.Wrapper {
+  padding: 20px;
+}
+
+.Stitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SUpTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: black;
+}
+.SDelTitle {
+  color: red;
+  font-size: 17px;
+  cursor: pointer;
+}
+.Sform {
+  display: flex;
+  flex-direction: column;
+}
+.Spfp {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.pfpImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.SpfpIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(79, 113, 98);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Sform > label {
+  margin-top: 20px;
+}
+
+.Sform > input {
+  color: black;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  width: 60%;
+}
+.Sform > input:focus {
+  outline: none;
+}
+.Sform > input::placeholder {
+  color: black;
+}
+
+.submit-btn {
+  width: 100px;
+  align-self: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  color: rgb(9, 187, 187);
+}
