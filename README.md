@@ -35,7 +35,7 @@ Material-UI: A popular React UI framework for creating responsive and visually a
 # Setup
 Clone the repository:
 
-git clone https://github.com/yourusername/Thrive-Blog.git
+git clone https://github.com/Nushwa/Thrive-Blog.git
 Navigate to the project directory:
 
 cd Thrive-Blog
